@@ -1,0 +1,90 @@
+body {
+		background-color: lightsteelblue;
+	 	text-align: center;}
+
+h1   {
+		color: #c52d2d;
+	 	font-family: Barlow Condensed, serif;
+	 	font-weight: bolder;
+	  	font-size: 49px;}	 
+
+h2   {
+		color: #cc2424;
+	 	font-family: Barlow Condensed, sans-serif;
+	 	font-size: 18px;}
+
+img  {  
+		border-radius: 50%;
+		width: 100px;
+		height: 125px;
+		border: 2px solid black;}
+
+p    {
+		color: black;
+	 	font-family: Zen Maru Gothic, serif;
+	 	font-size: 13px;}
+
+.list-inline {
+		padding: 0px;
+		list-style-type: none;
+		color: lightgrey;
+		text-decoration: none;}
+
+.list-inline li {
+		display: inline;}
+
+
+.list-inline a {
+		text-decoration: none;}
+
+i  {
+		color: lightgrey;
+		font-size: 30px;
+		text-decoration: none;
+		padding: 10px;}
+
+i:hover{
+		color: darkgrey;}
+
+
+.blue-button { 
+			background-color: lightblue;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 10px;
+			font-weight: bolder;
+			padding: 10px 14px;
+			color: black;
+			font-family: Zen Maru Gothic;
+			border-radius: 10px;
+			}
+
+.blue-button:hover { 
+				background-color: grey;}
+
+.card-white  {	
+  		background-color: white;
+  		margin-bottom: 30px;
+  		border-radius: 10px;
+  		padding: 24px;
+  		box-shadow: 6px 16px 8px rgba(0,0,0,0.1);}
+
+.container {
+		width: 750px;
+		margin: 20px auto;
+		position: relative;}
+
+@media (max-width: 750px) {
+	.container {
+				width: 300px;}
+	body {background-color: #f2af77;}	
+	}
+
+
+
+
+
+
+
+
+
